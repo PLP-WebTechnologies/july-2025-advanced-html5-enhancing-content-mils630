@@ -1,44 +1,70 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ew7e64j9)
-# 📘 Assignment: Enhancing HTML5 Content & Mastering Forms
+Enhanced HTML5 Content & Forms
+Overview
+This project demonstrates the use of advanced HTML5 elements to create a well-structured multi-section web page containing lists, tables, media, and a fully functional form. The page is built using only HTML5, without any CSS or JavaScript, to focus on semantic markup and native browser features.
 
-## Overview
+Assignment Requirements and How They Are Met
+1. Use lists and tables effectively to organize content for clarity and accessibility
+Unordered List (<ul>) — Shows examples of web technologies.
 
-This assignment focuses on elevating your HTML5 skills by working with advanced content elements and mastering the creation, structure, and validation of web forms. You will practice using lists, tables, and media to enrich page content, and then dive deep into building dynamic, user-friendly forms powered by native HTML5 features.
+Ordered List (<ol>) — Displays steps in a development process.
 
-## Objectives
+Description List (<dl>) — Explains key web development terms.
 
-You are expected to demonstrate the ability to:
+Table (<table>) — Presents a course schedule with <thead>, <tbody>, and <tfoot> for semantic clarity.
 
-* Use lists and tables effectively to organize content for clarity and accessibility.
-* Embed media content such as images, audio, or video using semantic HTML5 elements.
-* Build structured HTML5 forms that are both usable and visually intuitive.
-* Apply various HTML5 form attributes to improve user interaction.
-* Use built-in validation techniques to minimize incorrect data input without relying on JavaScript.
+2. Embed media content using semantic HTML5 elements
+Image — Included inside a <figure> with <figcaption>.
 
-## Instructions
+Audio — Added using the <audio> element with a sample MP3 file.
 
-Design a simple multi-section web page that showcases the use of lists, tables, and media, followed by a complete HTML5 form. The page should reflect thoughtful structure, usability, and clarity.
+Video — Added using the <video> element with a sample MP4 file.
 
-Your form should include various input types, make use of labels and fieldsets for accessibility, and apply HTML5 validation rules through attributes like `required`, `type`, `minlength`, `pattern`, and others.
+Fallback text provided for browsers that cannot play the media.
 
-Avoid using JavaScript for validation—rely solely on native HTML5 capabilities.
+3. Build structured HTML5 forms that are both usable and visually intuitive
+Form grouping — Uses <fieldset> and <legend> to separate personal information, account details, and preferences.
 
-## Deliverables
+Labels — All inputs are paired with <label> elements for accessibility.
 
-Submit a single HTML file named `enhanced-form.html`. It should include:
+Multiple input types — Includes text, email, tel, password, select, and checkbox.
 
-* Well-structured content using lists, tables, and media.
-* A complete HTML5 form including a variety of input fields.
-* Correct use of form attributes such as `placeholder`, `required`, `autocomplete`, and `readonly`.
-* HTML5 validation features implemented correctly across all relevant fields.
-* A clear, accessible layout using semantic tags.
+4. Apply various HTML5 form attributes to improve user interaction
+Attributes used:
 
-## Tips
+placeholder — Guides users on expected input.
 
-* Proper and meaningful use of lists, tables, and media.
-* Clarity and accessibility of form structure.
-* Correct use of form elements and attributes.
-* Effective application of native HTML5 validation.
-* Clean, well-indented, and maintainable HTML code.
+required — Ensures fields must be completed.
 
+autocomplete — Suggests previously entered information.
 
+readonly — Can be applied for fixed values (not used in this form but supported).
+
+5. Use built-in validation techniques without relying on JavaScript
+Validation examples:
+
+required — Prevents empty submissions.
+
+type="email" — Ensures valid email formatting.
+
+pattern="[0-9]{10}" — Enforces a 10-digit phone number format.
+
+minlength / maxlength — Controls input length.
+
+File Structure
+-enhanced-form.html — Main HTML file containing lists, tables, media, and the form.
+
+**README.md — Documentation and explanation of assignment compliance.**
+
+**Usage**
+-Open enhanced-form.html in any modern web browser.
+-View the example lists, tables, and embedded media.
+-Fill out the form to experience HTML5’s native validation features.
+-Submit the form to see the browser’s built-in feedback for missing or incorrectly formatted data.
+
+**Browser Compatibility**
+-Works in all major modern browsers (Chrome, Firefox, Edge, Safari, Opera).
+-Audio and video playback depends on the browser’s supported file formats.
+-Fallback messages appear if the media cannot be played.
+
+Author
+mils630
