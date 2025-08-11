@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced HTML5 Content & Forms</title>
+</head>
+<body>
+
+<header>
+    <h1>HTML5 Content & Forms Demonstration</h1>
+    <p>This page demonstrates the use of HTML5 lists, tables, media elements, and forms with native validation.</p>
+</header>
+
+<section>
+    <h2>Popular Web Development Technologies</h2>
+
+    <h3>Unordered List</h3>
+    <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+    </ul>
+
+    <h3>Ordered List</h3>
+    <ol>
+        <li>Plan your project</li>
+        <li>Design the layout</li>
+        <li>Write the code</li>
+        <li>Test and deploy</li>
+    </ol>
+
+    <h3>Description List</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>The structure of web pages.</dd>
+        <dt>CSS</dt>
+        <dd>The styling and layout.</dd>
+        <dt>JavaScript</dt>
+        <dd>The interactivity of web pages.</dd>
+    </dl>
+</section>
+
+<section>
+    <h2>Course Schedule</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Topic</th>
+                <th>Duration</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>HTML5 Basics</td>
+                <td>2 hours</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>CSS Styling</td>
+                <td>3 hours</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>JavaScript Essentials</td>
+                <td>3 hours</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Duration: 8 hours</td>
+            </tr>
+        </tfoot>
+    </table>
+</section>
+
+<section>
+    <h2>Media Showcase</h2>
+
+    <figure>
+        <img src="images\Stand By Me_ The Best Of Ben E_ King (1).jpeg" alt="Placeholder image" width="400">
+        <figcaption>Sample image using figure and figcaption</figcaption>
+    </figure>
+
+    <h3>Sample Audio</h3>
+    <audio controls>
+        <source src="audio\WhatsApp Audio 2025-08-04 at 17.34.20.mpeg" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h3>Sample Video</h3>
+    <video width="400" controls>
+        <source src="video\ben_e._king_stand_by_me_hq_video_remastered_in_1080p_h264_16884.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+</section>
+
+<section>
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        
+        <fieldset>
+            <legend>Personal Information</legend>
+            
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required minlength="3">
+            
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="example@email.com" required autocomplete="email">
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="e.g., 0712345678" pattern="[0-9]{10}" required>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Account Details</legend>
+            
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required minlength="4" maxlength="15">
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required minlength="6">
+            
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required minlength="6">
+        </fieldset>
+        
+        <fieldset>
+            <legend>Preferences</legend>
+            
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="Kenya">Kenya</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+            </select>
+            
+            <label>
+                <input type="checkbox" name="terms" required>
+                I agree to the terms and conditions
+            </label>
+        </fieldset>
+        
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear Form">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
